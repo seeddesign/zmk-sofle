@@ -20,3 +20,6 @@
 
 <img src="keymap-drawer/sofle.svg" >
 
+<img src="keymap-drawer/1.png" >
+<img src="keymap-drawer/2.png" >
+<img src="keymap-drawer/3.png" >
