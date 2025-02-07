@@ -61,7 +61,7 @@
 &kp C_MUTE        &mo 1   &kp LEFT_GUI  &kp LEFT_ALT  &kp MINUS  &kp SPACE    &kp ENTER        &kp SPACE  &kp EQUAL  &kp RIGHT_ALT  &kp RIGHT_CONTROL  &mo 2
             >;
 
-            sensor-bindings = <&scroll_encoder>;
+            sensor-bindings = <&inc_dec_kp LA(EQUAL) LA(MINUS)>;
             display-name = "LAYER0";
         };
 
@@ -69,8 +69,8 @@
             bindings = <
 &kp GRAVE      &kp F1             &kp F2            &kp F3        &kp F4           &kp F5             &mmv MOVE_UP     &kp F6           &kp F7           &kp F8           &kp F9           &kp F10           &kp DELETE
 &kp CAPS       &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOL_UP  &kp PAGE_UP      &kp HOME           &mmv MOVE_DOWN   &rgb_ug RGB_ON   &rgb_ug RGB_BRI  &rgb_ug RGB_EFR  &rgb_ug RGB_SPI  &kp MINUS         &kp EQUAL
-&kp LG(EQUAL)  &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN    &kp END            &mmv MOVE_LEFT   &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LG(MINUS)  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &kp F11           &kp F12
+&kp LA(EQUAL)  &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN    &kp END            &mmv MOVE_LEFT   &rgb_ug RGB_OFF  &rgb_ug RGB_BRD  &rgb_ug RGB_EFF  &rgb_ug RGB_SPD  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp LA(MINUS)  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &rgb_ug RGB_EFR  &rgb_ug RGB_SPI    &mmv MOVE_RIGHT  &rgb_ug RGB_HUI  &rgb_ug RGB_HUD  &rgb_ug RGB_SAI  &rgb_ug RGB_SAD  &kp F11           &kp F12
 &kp C_MUTE     &trans             &trans            &trans        &trans           &trans             &mkp LCLK        &kp F11          &kp F12          &rgb_ug RGB_TOG  &trans           &trans
             >;
 
