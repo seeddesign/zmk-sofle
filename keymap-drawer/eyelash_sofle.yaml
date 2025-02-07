@@ -91,7 +91,7 @@ layers:
   - RGB SPI
   - {t: '-', s: _}
   - {t: '=', s: +}
-  - {t: Gui+=, s: Gui++}
+  - {t: Alt+=, s: Alt++}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -104,7 +104,7 @@ layers:
   - RGB SPD
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
-  - {t: Gui+-, s: Gui+_}
+  - {t: Alt+-, s: Alt+_}
   - PREVIOUS
   - PLAY PAUSE
   - $$mdi:skip-next$$
