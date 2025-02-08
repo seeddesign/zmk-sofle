@@ -101,7 +101,7 @@ layers:
   - END
   - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F12
   - '~'
@@ -111,10 +111,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:arrow-right-bold$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - F11
+  - F12
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '[', s: '{'}
   - {t: ']', s: '}'}
   - Alt+0
@@ -124,11 +124,11 @@ layers:
   - {t: '-', s: _}
   - {t: '=', s: +}
   - $$mdi:mouse-scroll-wheel$$
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '-', s: _}
+  - {t: '=', s: +}
+  - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - $$mdi:mouse-right-click-outline$$
-  - {t: '$$mdi:apple-keyboard-caps$$', type: held alternate}
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-right-bold$$
+  - $$mdi:apple-keyboard-caps$$
   '2':
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
