@@ -33,8 +33,8 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <1200>;
-    acceleration-exponent = <0>;
+    time-to-max-speed-ms = <600>;
+    acceleration-exponent = <2>;
 };
 
 / {
