@@ -85,8 +85,8 @@ layers:
   - PgUp
   - HOME
   - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Alt+=, s: Alt++}
-  - {t: 'Alt+]', s: 'Alt+}'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-right-click-outline$$
@@ -98,8 +98,8 @@ layers:
   - PgDn
   - END
   - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Alt+-, s: Alt+_}
-  - {t: 'Alt+[', s: 'Alt+{'}
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
