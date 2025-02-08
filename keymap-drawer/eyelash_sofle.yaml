@@ -104,7 +104,7 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F12
-  - '~'
+  - $$mdi:apple-keyboard-shift$$
   - PREVIOUS
   - PLAY PAUSE
   - $$mdi:skip-next$$
