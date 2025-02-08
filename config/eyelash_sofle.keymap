@@ -33,8 +33,8 @@
 };
 
 &mmv {
-    time-to-max-speed-ms = <1000>;
-    acceleration-exponent = <1>;
+    time-to-max-speed-ms = <2000>;
+    acceleration-exponent = <2>;
 };
 
 / {
@@ -54,11 +54,11 @@
 
         layer0 {
             bindings = <
-&kp ESC           &kp N1            &kp N2        &kp N3        &kp N4     &kp N5       &kp UP_ARROW     &kp N6     &kp N7     &kp N8        &kp N9             &kp N0    &kp BACKSPACE
-&kp TAB           &kp Q             &kp W         &kp E         &kp R      &kp T        &kp DOWN_ARROW   &kp Y      &kp U      &kp I         &kp O              &kp P     &kp BSLH
-&mo 1             &kp A             &kp S         &kp D         &kp F      &kp G        &kp LEFT_ARROW   &kp H      &kp J      &kp K         &kp L              &kp SEMI  &kp APOS
-&kp LSHFT         &kp Z             &kp X         &kp C         &kp V      &kp B        &kp RIGHT_ARROW  &kp N      &kp M      &kp COMMA     &kp DOT            &kp FSLH  &kp ENTER
-&kp LA(NUMBER_0)  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp MINUS  &kp SPACE    &kp CAPS         &kp SPACE  &kp EQUAL  &kp CAPSLOCK  &kp RIGHT_CONTROL  &mo 2
+&kp ESC           &kp N1            &kp N2        &kp N3        &kp N4    &kp N5       &kp UP_ARROW     &kp N6     &kp N7    &kp N8     &kp N9             &kp N0    &kp BACKSPACE
+&kp TAB           &kp Q             &kp W         &kp E         &kp R     &kp T        &kp DOWN_ARROW   &kp Y      &kp U     &kp I      &kp O              &kp P     &kp BSLH
+&mo 1             &kp A             &kp S         &kp D         &kp F     &kp G        &kp LEFT_ARROW   &kp H      &kp J     &kp K      &kp L              &kp SEMI  &kp APOS
+&kp LSHFT         &kp Z             &kp X         &kp C         &kp V     &kp B        &kp RIGHT_ARROW  &kp N      &kp M     &kp COMMA  &kp DOT            &kp FSLH  &kp ENTER
+&kp LA(NUMBER_0)  &kp LEFT_CONTROL  &kp LEFT_GUI  &kp LEFT_ALT  &kp LALT  &kp SPACE    &kp CAPS         &kp SPACE  &kp CAPS  &mo 1      &kp RIGHT_CONTROL  &mo 2
             >;
 
             sensor-bindings = <&inc_dec_kp LA(EQUAL) LA(MINUS)>;
@@ -67,11 +67,11 @@
 
         layer_1 {
             bindings = <
-&kp GRAVE         &kp F1             &kp F2            &kp F3        &kp F4         &kp F5       &kp UP_ARROW  &kp F6                &kp F7                 &kp F8          &kp F9          &kp F10           &kp DELETE
-&kp CAPS          &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOL_UP  &kp PAGE_UP    &kp HOME     &kp DOWN      &trans                &kp LA(EQUAL)          &mkp LCLK       &mmv MOVE_UP    &mkp RCLK         &kp F11
-&trans            &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN  &kp END      &kp LEFT      &trans                &kp LA(MINUS)          &mmv MOVE_LEFT  &mkp LCLK       &mmv MOVE_RIGHT   &kp F12
-&kp TILDE         &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &trans         &trans       &kp RIGHT     &trans                &trans                 &trans          &mmv MOVE_DOWN  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LA(NUMBER_0)  &trans             &trans            &trans        &kp MINUS      &kp EQUAL    &mkp MCLK     &kp LA(LEFT_BRACKET)  &kp LA(RIGHT_BRACKET)  &trans          &kp LEFT        &kp RIGHT
+&kp GRAVE         &kp F1             &kp F2            &kp F3        &kp F4         &kp F5       &kp UP_ARROW  &kp F6     &kp F7         &kp F8                &kp F9          &kp F10                &kp DELETE
+&kp CAPS          &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOL_UP  &kp PAGE_UP    &kp HOME     &kp DOWN      &kp HOME   &kp PAGE_UP    &kp LA(LEFT_BRACKET)  &mmv MOVE_UP    &kp LA(RIGHT_BRACKET)  &kp F11
+&trans            &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN  &kp END      &kp LEFT      &kp END    &kp PAGE_DOWN  &mmv MOVE_LEFT        &mkp LCLK       &mmv MOVE_RIGHT        &kp F12
+&kp TILDE         &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &trans         &trans       &kp RIGHT     &kp MINUS  &kp EQUAL      &trans                &mmv MOVE_DOWN  &kp LEFT_BRACKET       &kp RIGHT_BRACKET
+&kp LA(NUMBER_0)  &trans             &trans            &trans        &kp MINUS      &kp EQUAL    &mkp MCLK     &mkp LCLK  &mkp RCLK      &kp CAPS              &kp LEFT        &kp RIGHT
             >;
 
             display-name = "layer1";
