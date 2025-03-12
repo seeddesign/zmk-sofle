@@ -71,7 +71,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - F6
   - F7
   - F8
@@ -84,7 +84,7 @@ layers:
   - $$mdi:volume-high$$
   - PgUp
   - HOME
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - HOME
   - PgUp
   - {t: 'Alt+[', s: 'Alt+{'}
@@ -97,7 +97,7 @@ layers:
   - $$mdi:arrow-right-bold$$
   - PgDn
   - END
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - END
   - PgDn
   - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
@@ -110,7 +110,7 @@ layers:
   - $$mdi:skip-next$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
