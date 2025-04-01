@@ -1,6 +1,7 @@
+layout: {zmk_keyboard: eyelash_sofle}
 layers:
   LAYER0:
-  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:keyboard-esc$$', s: '`'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
@@ -13,7 +14,7 @@ layers:
   - {t: '9', s: (}
   - {t: '0', s: )}
   - {t: '$$mdi:backspace$$', type: backspace}
-  - $$mdi:keyboard-tab$$
+  - {t: '$$mdi:apple-keyboard-caps$$', h: layer1}
   - Q
   - W
   - E
@@ -56,12 +57,12 @@ layers:
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:apple-keyboard-option$$
+  - {t: '-', s: _}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-space$$
-  - $$mdi:apple-keyboard-caps$$
-  - layer1
+  - +
+  - {t: '$$mdi:apple-keyboard-caps$$', h: layer1}
   - $$mdi:apple-keyboard-control$$
   - '2'
   layer1:
@@ -78,7 +79,7 @@ layers:
   - F9
   - F10
   - $$mdi:backspace-reverse-outline$$
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:apple-keyboard-caps$$', type: held}
   - $$mdi:volume-low$$
   - $$mdi:arrow-up-bold$$
   - $$mdi:volume-high$$
@@ -91,7 +92,7 @@ layers:
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: 'Alt+]', s: 'Alt+}'}
   - F11
-  - {type: held}
+  - {type: held alternate}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
@@ -121,11 +122,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: '[', s: '{'}
+  - {t: '[', s: '{'}
   - $$mdi:mouse-scroll-wheel$$
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {t: ']', s: '}'}
+  - {t: ']', s: '}'}
   - {t: '$$mdi:mouse-left-click-outline$$', type: held alternate}
   - $$mdi:mouse-right-click-outline$$
   - $$mdi:apple-keyboard-caps$$
