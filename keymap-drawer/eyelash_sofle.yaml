@@ -55,9 +55,9 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - Alt+0
   - $$mdi:apple-keyboard-control$$
-  - $$mdi:apple-keyboard-command$$
   - $$mdi:apple-keyboard-option$$
-  - {t: '-', s: _}
+  - LGUI
+  - LGUI
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
