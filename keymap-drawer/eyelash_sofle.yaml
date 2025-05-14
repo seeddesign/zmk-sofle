@@ -62,7 +62,7 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-caps$$
-  - {t: Sft+-, h: layer1, s: Sft+_}
+  - {t: '-', h: layer1, s: _}
   - {t: '=', h: layer1, s: +}
   - '2'
   layer1:
@@ -127,8 +127,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB4'
   - '&mkp MB5'
-  - {type: held alternate}
-  - {type: held alternate}
+  - {t: Sft+-, s: Sft+_, type: held alternate}
+  - {t: Sft+=, s: Sft++, type: held alternate}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
   - '~'
