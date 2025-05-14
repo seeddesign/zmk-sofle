@@ -62,8 +62,8 @@ layers:
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-caps$$
-  - {t: '$$mdi:apple-keyboard-caps$$', h: layer1}
-  - $$mdi:apple-keyboard-control$$
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - '2'
   layer1:
   - {t: '`', s: '~'}
@@ -103,8 +103,8 @@ layers:
   - $$mdi:mouse-left-click-outline$$
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - $$mdi:mouse-left-click-outline$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
   - $$mdi:apple-keyboard-shift$$
   - PREVIOUS
   - PLAY PAUSE
@@ -120,14 +120,14 @@ layers:
   - {t: ']', s: '}'}
   - Alt+0
   - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB4'
-  - '&mkp MB5'
-  - '&mkp MB4'
-  - '&mkp MB5'
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:apple-keyboard-command$$
+  - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB4'
   - '&mkp MB5'
-  - {type: held alternate}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '2':
