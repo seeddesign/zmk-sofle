@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - '&mkp MB4'
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - '&mkp MB5'
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -56,9 +56,9 @@ layers:
   - Alt+0
   - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-control$$
   - $$mdi:apple-keyboard-option$$
-  - $$mdi:keyboard-space$$
+  - $$mdi:apple-keyboard-control$$
+  - {t: Sft+`, s: Sft+~}
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
@@ -119,10 +119,10 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - Alt+0
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-command$$
-  - $$mdi:apple-keyboard-command$$
+  - {t: '[', s: '{'}
+  - {t: ']', s: '}'}
+  - {t: '-', s: _}
+  - {t: '=', s: +}
   - $$mdi:keyboard-space$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - '&mkp MB4'
