@@ -77,11 +77,11 @@
 
         layer_2 {
             bindings = <
-&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_BRI  &kp F6           &kp F7           &kp F8     &kp F9     &kp F10      &trans
-&trans      &trans        &trans          &trans        &bootloader   &trans          &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &kp F11    &kp F12    &kp UNDER    &kp PLUS
-&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 3  &bt BT_SEL 4  &trans          &rgb_ug RGB_EFR  &mkp MB4         &kp UP_ARROW     &mkp MB5   &trans     &kp LBRC     &kp RBRC
-&trans      &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans          &rgb_ug RGB_EFF  &kp LEFT         &kp DOWN         &kp RIGHT  &soft_off  &bootloader  &trans
-&kp K_MUTE  &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans     &trans     &trans
+&kp TILDE   &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4    &rgb_ug RGB_BRI  &kp F6           &kp F7           &kp F8     &kp MINUS         &kp EQUAL          &trans
+&trans      &trans        &trans          &trans        &bootloader   &trans          &rgb_ug RGB_BRD  &rgb_ug RGB_HUI  &rgb_ug RGB_SAI  &kp F11    &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp PLUS
+&trans      &bt BT_SEL 0  &bt BT_SEL 1    &bt BT_SEL 3  &bt BT_SEL 4  &trans          &rgb_ug RGB_EFR  &mkp MB4         &kp UP_ARROW     &mkp MB5   &trans            &kp LBRC           &kp RBRC
+&trans      &trans        &bt BT_CLR_ALL  &bt BT_CLR    &trans        &trans          &rgb_ug RGB_EFF  &kp LEFT         &kp DOWN         &kp RIGHT  &soft_off         &bootloader        &trans
+&kp K_MUTE  &trans        &trans          &trans        &trans        &trans          &rgb_ug RGB_TOG  &rgb_ug RGB_ON   &rgb_ug RGB_OFF  &trans     &trans            &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOLUME_DOWN>;
