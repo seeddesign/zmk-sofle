@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - $$mdi:arrow-right-bold$$
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - N
   - M
   - {t: ',', s: <}
@@ -202,7 +202,7 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - $$mdi:arrow-up-bold$$
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -215,7 +215,7 @@ layers:
   - E
   - R
   - T
-  - $$mdi:arrow-down-bold$$
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - Y
   - U
   - I
@@ -228,7 +228,7 @@ layers:
   - D
   - F
   - G
-  - $$mdi:arrow-left-bold$$
+  - {h: '$$mdi:arrow-up-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: H, h: '$$mdi:gesture-tap-hold$$'}
   - {t: J, h: '$$mdi:gesture-tap-hold$$'}
   - K
@@ -241,7 +241,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:arrow-right-bold$$', h: '$$mdi:gesture-tap-hold$$'}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - N
   - M
   - {t: ',', s: <}
