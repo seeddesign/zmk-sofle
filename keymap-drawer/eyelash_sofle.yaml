@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - {t: '4', s: $}
   - {t: '5', s: '%'}
-  - {t: Windows, h: toggle}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - {t: '6', s: ^}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {t: Mac, h: toggle}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - Y
   - U
   - I
@@ -72,7 +72,7 @@ layers:
   - '3'
   - '4'
   - {t: '5', s: '%'}
-  - {t: Windows, h: toggle}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -85,7 +85,7 @@ layers:
   - E
   - R
   - T
-  - {t: Mac, h: toggle}
+  - {h: '3', s: '$$mdi:bluetooth-connect$$'}
   - Y
   - U
   - I
