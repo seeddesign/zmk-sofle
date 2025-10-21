@@ -51,41 +51,41 @@
 
         Windows {
             bindings = <
-&kp ESCAPE       &kp N1  &kp N2        &kp N3        &kp N4            &kp N5       &tog 0      &kp N6     &kp N7         &kp N8               &kp N9          &kp N0    &kp BACKSPACE
-&kp TAB          &kp Q   &kp W         &kp E         &kp R             &kp T        &tog 2      &kp Y      &kp U          &kp I                &kp O           &kp P     &kp BSLH
-&lt 1 CAPSLOCK   &kp A   &kp S         &kp D         &kp F             &kp G        &bt BT_PRV  &kp H      &kp J          &kp K                &kp L           &kp SEMI  &kp APOS
-&kp LSHFT        &kp Z   &kp X         &kp C         &kp V             &kp B        &bt BT_NXT  &kp N      &kp M          &kp COMMA            &kp DOT         &kp FSLH  &kp ENTER
-&kp PRINTSCREEN  &mo 3   &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE    &to 2       &kp SPACE  &kp RIGHT_ALT  &lt 3 RIGHT_CONTROL  &lt 3 CAPSLOCK  &mo 3
+&kp ESCAPE       &kp N1             &kp N2        &kp N3        &kp N4            &kp N5       &tog 0      &kp N6     &kp N7         &kp N8               &kp N9       &kp N0       &kp BACKSPACE
+&kp TAB          &kp Q              &kp W         &kp E         &kp R             &kp T        &tog 1      &kp Y      &kp U          &kp I                &kp O        &kp P        &kp BSLH
+&lt 2 CAPSLOCK   &kp A              &kp S         &kp D         &kp F             &kp G        &bt BT_PRV  &kp H      &kp J          &kp K                &kp L        &kp SEMI     &kp APOS
+&kp LSHFT        &kp Z              &kp X         &kp C         &kp V             &kp B        &bt BT_NXT  &kp N      &kp M          &kp COMMA            &kp DOT      &kp FSLH     &kp ENTER
+&kp PRINTSCREEN  &lt 3 PRINTSCREEN  &kp LEFT_GUI  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp SPACE    &to 1       &kp SPACE  &kp RIGHT_ALT  &lt 2 RIGHT_CONTROL  &lt 2 MINUS  &lt 3 EQUAL
             >;
 
             sensor-bindings = <&inc_dec_kp LC(EQUAL) LC(MINUS)>;
             display-name = "Windows";
         };
 
-        Function {
-            bindings = <
-&kp GRAVE         &kp F1             &kp F2            &kp F3        &kp F4            &kp F5               &kp UP_ARROW    &kp F6    &kp F7    &kp F8            &kp F9             &kp F10           &kp DELETE
-&kp CAPS          &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOL_UP  &kp PAGE_UP       &kp HOME             &kp DOWN_ARROW  &kp F11   &kp F12   &mkp LCLK         &mmv MOVE_UP       &mkp RCLK         &kp NON_US_BACKSLASH
-&trans            &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN     &kp END              &kp LEFT        &trans    &mkp MB4  &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT   &trans
-&kp LSHFT         &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &kp RIGHT       &trans    &mkp MB5  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp LA(NUMBER_0)  &bt BT_PRV         &bt BT_NXT        &trans        &kp MINUS         &kp EQUAL            &kp ENTER       &mkp MB4  &mkp MB5  &kp UNDERSCORE    &kp PLUS           &trans
-            >;
-
-            display-name = "Function";
-            sensor-bindings = <&scroll_encoder>;
-        };
-
         Mac {
             bindings = <
 &kp ESCAPE       &kp NUMBER_1  &kp NUMBER_2      &kp NUMBER_3  &kp NUMBER_4      &kp N5       &tog 0      &kp NUMBER_6  &kp N7    &kp N8       &kp N9       &kp N0         &kp BACKSPACE
-&kp TAB          &kp Q         &kp W             &kp E         &kp R             &kp T        &tog 2      &kp Y         &kp U     &kp I        &kp O        &kp P          &kp NON_US_BACKSLASH
-&lt 1 CAPS       &kp A         &kp S             &kp D         &kp F             &kp G        &bt BT_PRV  &sk H         &sk J     &kp K        &kp L        &kp SEMICOLON  &kp SQT
+&kp TAB          &kp Q         &kp W             &kp E         &kp R             &kp T        &tog 1      &kp Y         &kp U     &kp I        &kp O        &kp P          &kp NON_US_BACKSLASH
+&lt 2 CAPS       &kp A         &kp S             &kp D         &kp F             &kp G        &bt BT_PRV  &sk H         &sk J     &kp K        &kp L        &kp SEMICOLON  &kp SQT
 &kp LEFT_SHIFT   &kp Z         &kp X             &kp C         &kp V             &kp B        &bt BT_NXT  &kp N         &kp M     &kp COMMA    &kp PERIOD   &kp SLASH      &kp ENTER
 &kp PRINTSCREEN  &mo 3         &kp LEFT_CONTROL  &kp LEFT_ALT  &kp LEFT_COMMAND  &kp SPACE    &to 0       &kp SPACE     &kp CAPS  &lt 3 MINUS  &lt 3 EQUAL  &mo 3
             >;
 
             sensor-bindings = <&inc_dec_kp LG(EQUAL) LG(MINUS)>;
             label = "Mac";
+        };
+
+        Function {
+            bindings = <
+&kp GRAVE  &kp F1             &kp F2            &kp F3        &kp F4            &kp F5               &bl BL_INC    &kp F6    &kp F7    &kp F8            &kp F9             &kp F10           &kp DELETE
+&trans     &kp C_VOLUME_DOWN  &kp UP_ARROW      &kp C_VOL_UP  &kp PAGE_UP       &kp HOME             &bl BL_DEC    &kp F11   &kp F12   &mkp LCLK         &mmv MOVE_UP       &mkp RCLK         &kp NON_US_BACKSLASH
+&trans     &kp LEFT           &kp DOWN          &kp RIGHT     &kp PAGE_DOWN     &kp END              &bl BL_CYCLE  &trans    &mkp MB4  &mmv MOVE_LEFT    &mmv MOVE_DOWN     &mmv MOVE_RIGHT   &trans
+&kp LSHFT  &kp C_PREVIOUS     &kp C_PLAY_PAUSE  &kp C_NEXT    &kp LEFT_BRACKET  &kp RIGHT_BRACKET    &bl BL_CYCLE  &trans    &mkp MB5  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&trans     &trans             &kp MINUS         &kp EQUAL     &bt BT_PRV        &bt BT_NXT           &bl BL_TOG    &mkp MB4  &mkp MB5  &kp UNDERSCORE    &kp PLUS           &trans
+            >;
+
+            display-name = "Function";
+            sensor-bindings = <&scroll_encoder>;
         };
 
         Number {
