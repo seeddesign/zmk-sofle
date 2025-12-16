@@ -63,7 +63,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - {t: '$$mdi:apple-keyboard-control$$', h: Number}
-  - {t: '-', h: Function, s: _}
+  - {t: '-', h: Extra, s: _}
   - {t: '=', h: Extra, s: +}
   Mac:
   - $$mdi:keyboard-esc$$
@@ -323,5 +323,5 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-control$$
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {type: held alternate}
